@@ -13,7 +13,8 @@ The script uses the Configuration file created by AWS cli, e.g
 
 ##Running
 
-`pipenv run python droid/droid.py <command> <--project=PROJECT>`
+`pipenv run python droid/droid.py <command> <subcommand> <--project=PROJECT>`
 
-*command* is list, start or stop
+*command* is instances, volumes or snapshots
+*subcommand* - depends on command
 *project* is optional
